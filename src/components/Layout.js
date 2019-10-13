@@ -4,9 +4,13 @@ import Banner from './banner/Banner';
 import About from './about/About';
 import Feature from './feature/Experience';
 import Screenshoot from './screenshoot/Screenshoot';
+import Question from './question/Question';
+import Overview from './overview/Overview';
+import Testimonial from './testimonial/Testimonial';
+import Price from './price/Price';
 
 class Layout extends React.Component {
-    state = {  }
+    
     render() { 
         return (
             <Fragment>
@@ -15,6 +19,10 @@ class Layout extends React.Component {
                 <About />
                 <Feature />
                 <Screenshoot />
+                <Question />
+                <Overview />
+                <Testimonial />
+                <Price />
             </Fragment>
         );
     }
