@@ -1,0 +1,455 @@
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';
+import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
+
+import team1 from '../../images/team/team1.jpg';
+import team2 from '../../images/team/team2.jpg';
+import team3 from '../../images/team/team3.jpg';
+import team4 from '../../images/team/team4.jpg';
+import team5 from '../../images/team/team5.jpg';
+import team6 from '../../images/team/team6.jpg';
+
+class Team extends React.Component {
+    state = {  }
+    render() { 
+        return (
+            <section className="team-section section-gap-full">
+                <div className="container">
+                    <div className="section-title">
+                        <h2 className="text-center">Our Team</h2>
+                        <p className="text-center">Intoducing the Potential Team.</p>
+                    </div>
+                    <div className="row">
+                        <OwlCarousel
+                            className="team-carusel  owl-carousel" 
+                            id="team-carusel"
+                            items={4}
+                            loop
+                            margin={10}
+                        >
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team1} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Foto Sushi</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team2} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Philipe Cavalcante</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team3} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Cristian Newman</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team4} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Conor Sexton</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team5} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Pete Bellis</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team6} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Tanja Heffner</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team1} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Foto Sushi</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team2} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Philipe Cavalcante</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team3} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Cristian Newman</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </OwlCarousel>
+                        {/* <div className="team-carusel  owl-carousel" id="team-carusel">
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team1} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Foto Sushi</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team2} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Philipe Cavalcante</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team3} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Cristian Newman</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team4} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Conor Sexton</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team5} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Pete Bellis</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team6} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Tanja Heffner</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team1} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Foto Sushi</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team2} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Philipe Cavalcante</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="single-team item">
+                                <img className="img-fluid" src={team3} alt="Team Person" />
+                                <div className="team-content">
+                                    <h4>Cristian Newman</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i className="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>*/}
+                    </div> 
+                </div>
+            </section>
+        );
+    }
+}
+ 
+export default Team;
