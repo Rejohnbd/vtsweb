@@ -35,17 +35,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -58,17 +58,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -81,17 +81,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -104,17 +104,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -127,17 +127,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -150,17 +150,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -173,17 +173,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -196,17 +196,17 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -219,232 +219,23 @@ class Team extends React.Component {
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-facebook"></i>
+                                                <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-twitter"></i>
+                                                <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fa fa-linkedin"></i>
+                                                <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </OwlCarousel>
-                        {/* <div className="team-carusel  owl-carousel" id="team-carusel">
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team1} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Foto Sushi</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team2} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Philipe Cavalcante</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team3} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Cristian Newman</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team4} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Conor Sexton</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team5} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Pete Bellis</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team6} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Tanja Heffner</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team1} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Foto Sushi</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team2} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Philipe Cavalcante</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="single-team item">
-                                <img className="img-fluid" src={team3} alt="Team Person" />
-                                <div className="team-content">
-                                    <h4>Cristian Newman</h4>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>*/}
                     </div> 
                 </div>
             </section>
