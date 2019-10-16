@@ -38,16 +38,16 @@ class Contact extends React.Component {
                             <form id="contact-form" action="#">
                                 <div className="row contact-form-wrap justify-content-center">
                                     <div className="col-md-6 contact-name form-col">
-                                        <input name="name" id="name" className="form-control" type="text" placeholder="Name*"
-                                            onfocus="this.placeholder=''" onblur="this.placeholder='Name*'" />
+                                        {/* <input name="name" id="name" className="form-control" type="text" placeholder="Name*"
+                                            onfocus="this.placeholder=''" onblur="this.placeholder='Name*'" /> */}
                                     </div>
                                     <div className="col-md-6 contact-email form-col">
-                                        <input name="mail" id="mail" className="form-control" type="email" placeholder="E-mail*"
-                                            onfocus="this.placeholder=''" onblur="this.placeholder='Email*'" />
+                                        {/* <input name="mail" id="mail" className="form-control" type="email" placeholder="E-mail*"
+                                            onfocus="this.placeholder=''" onblur="this.placeholder='Email*'" /> */}
                                     </div>
                                     <div className="col-lg-12">
-                                        <textarea name="comment" id="comment" className="form-control" rows="8" placeholder="Message"
-                                            onfocus="this.placeholder=''" onblur="this.placeholder='Message*'"></textarea>
+                                        {/* <textarea name="comment" id="comment" className="form-control" rows="8" placeholder="Message"
+                                            onfocus="this.placeholder=''" onblur="this.placeholder='Message*'"></textarea> */}
                                     </div>
                                     <input type="submit" className="primary-btn" value="Send Message" id="submit-message" />
                                     <div id="msg" className="message"></div>
