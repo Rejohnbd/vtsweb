@@ -1,4 +1,5 @@
 (function ($) {
+   
     $.fn.dopeNav = function (options) {
 
         // Variables

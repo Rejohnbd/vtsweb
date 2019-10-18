@@ -1,8 +1,22 @@
 import React from 'react';
+import $ from 'jquery';
 import logoForWeb from '../../images/logo.png';
 
+
 class Navbar extends React.Component {
-    
+    componentDidMount() {
+        // $('#dopeNav').dopeNav({
+        //     stickyNav: true,
+        //   });
+        
+          //Smooth Scrolling Using Navigation Menu
+          $('a[href*="#"]').on('click', function (e) {
+            $('html,body').animate({
+              scrollTop: $($(this).attr('href')).offset().top - 70
+            }, 500);
+            e.preventDefault();
+          });
+    }
     render() { 
         return (
             <header className="header-area" id="header-area">
