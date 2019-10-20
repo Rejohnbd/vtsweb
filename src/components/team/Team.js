@@ -34,17 +34,17 @@ class Team extends React.Component {
                                     <h4>Foto Sushi</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -57,17 +57,17 @@ class Team extends React.Component {
                                     <h4>Philipe Cavalcante</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -80,17 +80,17 @@ class Team extends React.Component {
                                     <h4>Cristian Newman</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -103,17 +103,17 @@ class Team extends React.Component {
                                     <h4>Conor Sexton</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -126,17 +126,17 @@ class Team extends React.Component {
                                     <h4>Pete Bellis</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -149,17 +149,17 @@ class Team extends React.Component {
                                     <h4>Tanja Heffner</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -172,17 +172,17 @@ class Team extends React.Component {
                                     <h4>Foto Sushi</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -195,17 +195,17 @@ class Team extends React.Component {
                                     <h4>Philipe Cavalcante</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>
@@ -218,17 +218,17 @@ class Team extends React.Component {
                                     <h4>Cristian Newman</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-facebook"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-tumblr-alt"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="www.facebook.com">
                                                 <span className="ti-linkedin"></span>
                                             </a>
                                         </li>

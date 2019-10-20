@@ -1,6 +1,8 @@
 import React, {Fragment} from 'react';
 import $ from 'jquery';
 
+import logoForFooter from '../../images/logo-w.png';
+
 class Footer extends React.Component {
     state = {  }
 
@@ -26,8 +28,8 @@ class Footer extends React.Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5 footer-left">
-                                <a href="#">
-                                    <img src="img/logo-w.png" alt="" />
+                                <a href="www.facebook.com">
+                                    <img src={logoForFooter} alt="Home Page" />
                                 </a>
                                 <p className="copyright-text">&copy; 2018 Design With
                                     <i className="fa fa-heart" aria-hidden="true"></i> By
@@ -37,38 +39,38 @@ class Footer extends React.Component {
                             <div className="col-lg-7">
                                 <ul id="social">
                                     <li>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="www.facebook.com">
                                             <i className="fa fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="www.facebook.com">
                                             <i className="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="www.facebook.com">
                                             <i className="fa fa-google-plus"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="www.facebook.com">
                                             <i className="fa fa-instagram" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                 </ul>
                                 <ul className="footer-menu">
                                     <li>
-                                        <a href="#">Affiliate Program</a>
+                                        <a href="www.facebook.com">Affiliate Program</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms & Conditionss</a>
+                                        <a href="www.facebook.com">Terms &amp; Conditionss</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <a href="www.facebook.com">Privacy Policy</a>
                                     </li>
                                     <li>
-                                        <a href="#">Refund Policy</a>
+                                        <a href="www.facebook.com">Refund Policy</a>
                                     </li>
                                 </ul>
                             </div>

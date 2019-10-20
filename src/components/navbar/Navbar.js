@@ -1,14 +1,25 @@
 import React from 'react';
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import $ from 'jquery';
+
 import logoForWeb from '../../images/logo.png';
 
 
+
 class Navbar extends React.Component {
-    componentDidMount() {
+    state = {
+        isMobile: null
+    }
+    
+    componentDidMount() { 
+        
+        window.addEventListener('scroll', this.handleScroll)
+           
         // $('#dopeNav').dopeNav({
         //     stickyNav: true,
         //   });
-        
+                
           //Smooth Scrolling Using Navigation Menu
           $('a[href*="#"]').on('click', function (e) {
             $('html,body').animate({
@@ -17,7 +28,17 @@ class Navbar extends React.Component {
             e.preventDefault();
           });
     }
+
+    handleScroll = () => {
+        console.log('scrolled')
+    }
     render() { 
+        let scroll = Scroll.animateScroll;
+        let Events = Scroll.Events;
+        scroll.scrollTo(500, console.log('MMMMMMMMMM'));
+        Events.scrollEvent.register('begin', 
+            console.log("begin")
+        );
         return (
             <header className="header-area" id="header-area">
             <div className="dope-nav-container breakpoint-off">

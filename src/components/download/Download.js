@@ -14,7 +14,7 @@ class Download extends React.Component {
                             </p>
                         </div>
                         <div className="col-lg-6 dload-btn">
-                            <a href="#" className="primary-btn">
+                            <a href="www.facebook.com" className="primary-btn">
                                 <span>Google Play</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" x='0px' y='0px' width='50' height='50'  viewBox="0 0 50 50"
                                     style={{fill:'#fff'}}>

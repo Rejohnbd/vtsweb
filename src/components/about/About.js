@@ -7,7 +7,7 @@ import flShape_4 from '../../images/shape/fl-shape-4.png';
 import flShape_5 from '../../images/shape/fl-shape-5.png';
 import flShape_6 from '../../images/shape/fl-shape-6.png';
 import flShape_7 from '../../images/shape/fl-shape-7.png';
-import flShape_8 from '../../images/shape/fl-shape-8.png';
+// import flShape_8 from '../../images/shape/fl-shape-8.png';
 import flShape_9 from '../../images/shape/fl-shape-9.png';
 import flShape_10 from '../../images/shape/fl-shape-10.png';
 

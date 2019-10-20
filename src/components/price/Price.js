@@ -42,7 +42,7 @@ class Price extends React.Component {
                                             <i className="ti ti-check"></i>
                                         </li>
                                     </ul>
-                                    <a href="#" className="primary-btn primary-btn-w d-block mx-auto">Select Plan</a>
+                                    <a href="www.facebook.com" className="primary-btn primary-btn-w d-block mx-auto">Select Plan</a>
                                 </div>
                             </div>
                             <div className="single-price">
@@ -71,7 +71,7 @@ class Price extends React.Component {
                                             <i className="ti ti-close"></i>
                                         </li>
                                     </ul>
-                                    <a href="#" className="primary-btn d-block mx-auto">Select Plan</a>
+                                    <a href="www.facebook.com" className="primary-btn d-block mx-auto">Select Plan</a>
                                 </div>
                             </div>
                         </div>

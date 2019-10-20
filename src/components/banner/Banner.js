@@ -15,7 +15,7 @@ const Banner = () => {
                         <a className="video-btn primary-btn" href="about-us.html">About More</a>
                     </div>
                     <div className="col-md-6 banner-right text-center">
-                        <img className="img-fluid" src={appImage} alt="App Image" />
+                        <img className="img-fluid" src={appImage} alt="App Banner" />
                     </div>
                 </div>
             </div>
