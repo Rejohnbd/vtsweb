@@ -9,7 +9,7 @@ import logoForWeb from '../../images/logo.png';
 
 class Navbar extends React.Component {
     state = {
-        isMobile: null
+        
     }
     
     componentDidMount() { 
@@ -30,7 +30,9 @@ class Navbar extends React.Component {
     }
 
     handleScroll = () => {
+       let width =  $(window).width()
         console.log('scrolled')
+        console.log(width)
     }
     render() { 
         let scroll = Scroll.animateScroll;
@@ -39,9 +41,11 @@ class Navbar extends React.Component {
         Events.scrollEvent.register('begin', 
             console.log("begin")
         );
+
+
         return (
             <header className="header-area" id="header-area">
-            <div className="dope-nav-container breakpoint-off">
+            <div className="dope-nav-container dope-sticky">
                 <div className="container">
                     <div className="row">
                         <nav className="dope-navbar justify-content-between" id="dopeNav">

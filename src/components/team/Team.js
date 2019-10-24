@@ -1,5 +1,5 @@
 import React from 'react';
-import OwlCarousel from 'react-owl-carousel';
+import OwlCarousel, {Options} from 'react-owl-carousel';
 import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';
 import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -11,7 +11,28 @@ import team5 from '../../images/team/team5.jpg';
 import team6 from '../../images/team/team6.jpg';
 
 class Team extends React.Component {
-    state = {  }
+    state = {
+        options: {
+            items: 4,
+            loop: true,
+            margin: 30,
+            dots: true,
+            autoplayHoverPause: true,
+            smartSpeed: 500,
+            autoplay: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                767: {
+                    items: 2
+                },
+                992: {
+                    items: 4
+                }
+            }
+        }
+    }
     render() { 
         return (
             <section className="team-section section-gap-full">
@@ -24,9 +45,7 @@ class Team extends React.Component {
                         <OwlCarousel
                             className="team-carusel  owl-carousel" 
                             id="team-carusel"
-                            items={4}
-                            loop
-                            margin={10}
+                            {...this.state.options}
                         >
                             <div className="single-team item">
                                 <img className="img-fluid" src={team1} alt="Team Person" />
