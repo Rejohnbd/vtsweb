@@ -2638,7 +2638,7 @@ Author:    F4H3M
     color: #fff !important;
   }
   
-  .accordion > dt > a:after {
+  /* .accordion > dt > a:after {
     content: "\f107";
     width: 15px;
     height: 15px;
@@ -2658,7 +2658,7 @@ Author:    F4H3M
     color: #999;
     -webkit-font-smoothing: antialiased;
   }
-  
+   */
   .accordion > dt > a.active:after,
   .accordion > dt > a.active:hover:after {
     content: "\f106";
@@ -2677,7 +2677,7 @@ Author:    F4H3M
     color: #777;
   }
   
-  .accordion > dt > a,
+  /* .accordion > dt > a,
   .accordion > dt > a:after,
   .toggle > dt > a,
   .toggle > dt > a:after {
@@ -2686,7 +2686,7 @@ Author:    F4H3M
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
     -ms-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
-  }
+  } */
   
   .accordion > dt > a.active {
     pointer-events: none !important;

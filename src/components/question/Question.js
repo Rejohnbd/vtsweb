@@ -48,36 +48,15 @@ class Question extends React.Component {
                             </p>
                         </div>
                         <div className="col-lg-7">
-                            {/* <dl className="accordion">
-                                <dt>
-                                    <a href="#" className="active">Started several mistake joy say painful removed reached end.</a>
-                                </dt>
-                                <dd>
-                                    Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
-                                    consisted consulted elsewhere happiness disposing household any old the. Widow downs you
-                                    new shade drift hopes small. So otherwise commanded sweetness we improving.
-                                </dd>
-                                <dt>
-                                    <a href="#">Although moreover mistaken kindness me feelings do be marianne?</a>
-                                </dt>
-                                <dd>
-                                    Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
-                                    consisted consulted elsewhere happiness disposing household any old the. Widow downs you
-                                    new shade drift hopes small. So otherwise commanded sweetness we improving.
-                                </dd>
-                                <dt>
-                                    <a href="#">By in no ecstatic wondered disposal my speaking?</a>
-                                </dt>
-                                <dd>
-                                    Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
-                                    consisted consulted elsewhere happiness disposing household any old the. Widow downs you
-                                    new shade drift hopes small. So otherwise commanded sweetness we improving.
-                                </dd>
-                            </dl> */}
                             <dl className="accordion" id="accordionExample">
                                 
                                 <dt data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <a>Started several mistake joy say painful removed reached end.</a>
+                                    <a>
+                                        Started several mistake joy say painful removed reached end. 
+                                        <span className="float-right">
+                                            <i className="ti-angle-down"></i>
+                                        </span>
+                                    </a>
                                 </dt>
                                 <dd id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
@@ -85,7 +64,12 @@ class Question extends React.Component {
                                     new shade drift hopes small. So otherwise commanded sweetness we improving.
                                 </dd>
                                 <dt className="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <a>Although moreover mistaken kindness me feelings do be marianne?</a>
+                                    <a>
+                                        Although moreover mistaken kindness me feelings do be marianne?
+                                        <span className="float-right">
+                                            <i className="ti-angle-down"></i>
+                                        </span>
+                                    </a>
                                 </dt>
                                 <dd id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                     Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
@@ -93,7 +77,12 @@ class Question extends React.Component {
                                     new shade drift hopes small. So otherwise commanded sweetness we improving.
                                 </dd>
                                 <dt className="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <a>By in no ecstatic wondered disposal my speaking?</a>
+                                    <a>
+                                        By in no ecstatic wondered disposal my speaking?
+                                        <span className="float-right">
+                                            <i className="ti-angle-down"></i>
+                                        </span>
+                                    </a>
                                 </dt>
                                 <dd id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                     Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She
