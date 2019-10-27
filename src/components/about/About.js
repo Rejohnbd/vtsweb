@@ -11,15 +11,15 @@ const About = () => {
                         <img className="img-fluid" src={appImage} alt="App Design" />
                     </div>
                     <div className="col-lg-5 col-md-7 about-right">
-                        <h3>What Is Dope App?</h3>
-                        <h1>The Most Beautiful Theme For Your App</h1>
+                        <h3>What Is In This App?</h3>
+                        <h1>Most User Friendly Tracking App</h1>
                         <ul>
                             <li className="d-flex">
                                 <div className="icon">
                                     <span className="ti-layout-media-center-alt"></span>
                                 </div>
                                 <div className="details">
-                                    <h4>Retina Ready</h4>
+                                    <h4>User Friendly</h4>
                                     <p>
                                         A wonderful serenity has taken possession of my entire soul, like these sweet
                                         mornings of spring which I enjoyed.
@@ -28,25 +28,23 @@ const About = () => {
                             </li>
                             <li className="d-flex">
                                 <div className="icon">
-                                    <span className="ti-crown"></span>
+                                    <span className="ti-alert"></span>
                                 </div>
                                 <div className="details">
-                                    <h4>Premium Quality</h4>
+                                    <h4>Simplicity &amp; Secure </h4>
                                     <p>
-                                        A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoyed.
+                                    Internet security is becoming an ever-increasing issue and the same applies for our app. 
                                     </p>
                                 </div>
                             </li>
                             <li className="d-flex">
                                 <div className="icon">
-                                    <span className="ti-headphone-alt"></span>
+                                    <span className="ti-loop"></span>
                                 </div>
                                 <div className="details">
-                                    <h4>Excellent Support</h4>
+                                    <h4>Update Features</h4>
                                     <p>
-                                        A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoyed.
+                                    This app more relevant to our customers and send out updates periodically. This means that you not only end up with a better product, but can respond to security issues as they arise.
                                     </p>
                                 </div>
                             </li>
