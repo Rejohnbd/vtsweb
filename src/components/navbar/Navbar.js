@@ -94,6 +94,9 @@ class Navbar extends React.Component {
                                                 <li>
                                                     <a href="#download-section">Download</a>
                                                 </li>
+                                                <li>
+                                                    <a href="http://localhost:3000/" target="_blank">Login</a>
+                                                </li>
                                             </ul>
                                         </div>                            
                                     </div>

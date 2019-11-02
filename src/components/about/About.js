@@ -33,7 +33,7 @@ const About = () => {
                                 <div className="details">
                                     <h4>Simplicity &amp; Secure </h4>
                                     <p>
-                                    Internet security is becoming an ever-increasing issue and the same applies for our app. 
+                                    In this app customer cannot access their information quickly and easily, they will become frustrated and do it another way possibly by using others. Clear, uncluttered screens improve the customer experience.
                                     </p>
                                 </div>
                             </li>

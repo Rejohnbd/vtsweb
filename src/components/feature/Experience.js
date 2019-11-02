@@ -2,66 +2,69 @@ import React from 'react';
 
 const Feature = () => {
     return (
-        <section className="feature-section section-gap-full" id="feature-section">
+        <section className="service-section section-gap-full" id="feature-section">
+            
             <div className="container">
-                <div className="row align-items-center feature-wrap">
-                    <div className="col-lg-4 header-left">
-                        <h1>
-                            An exceptionally unique experience to you
-                        </h1>
-                        <a className="primary-btn" href="about-us.html">Know More
-                            <span className="ti-arrow-right"></span>
-                        </a>
+            <div className="section-title">
+                <h2 className="text-center">Our Service</h2>
+                <p className="text-center">Discover The Service We Provide</p>
+            </div>
+            <div className="row">
+                <a href="#download-section" className="col-lg-4  col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-location-pin"></i>
+                        <h4>Live Tracking</h4>
                     </div>
-                    <div className="col-lg-8">
-                        <div className="row features-wrap">
-                            <div className="col-md-6">
-                                <div className="single-feature relative">
-                                    <div className="overlay overlay-bg"></div>
-                                    <span className="ti-palette"></span>
-                                    <h3>Awesome Design</h3>
-                                    <p>
-                                        His many legs, pitifully thin compared with the size of the rest of him, waved
-                                        about helplessly as he looked.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="single-feature relative">
-                                    <div className="overlay overlay-bg"></div>
-                                    <span className="ti-heart"></span>
-                                    <h3>Made With Love</h3>
-                                    <p>
-                                        His many legs, pitifully thin compared with the size of the rest of him, waved
-                                        about helplessly as he looked.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="single-feature relative">
-                                    <div className="overlay overlay-bg"></div>
-                                    <span className="ti-loop"></span>
-                                    <h3>Constant Update</h3>
-                                    <p>
-                                        His many legs, pitifully thin compared with the size of the rest of him, waved
-                                        about helplessly as he looked.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="single-feature relative">
-                                    <div className="overlay overlay-bg"></div>
-                                    <span className="ti-headphone-alt"></span>
-                                    <h3>Full Free Chat</h3>
-                                    <p>
-                                        His many legs, pitifully thin compared with the size of the rest of him, waved
-                                        about helplessly as he looked.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                </a>
+                <a href="#download-section" className="col-lg-4  col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-bar-chart"></i>
+                        <h4>Mileage Report</h4>
                     </div>
-                </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-filter"></i>
+                        <h4>Fuel Monitoring</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4  col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-announcement"></i>
+                        <h4>Destination Alert</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-announcement"></i>
+                        <h4>AC On/Off Notification</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-announcement"></i>
+                        <h4>Engine On/Off Notification</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-write"></i>
+                        <h4>Daily Summary</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-alert"></i>
+                        <h4>Speed Violation Alert</h4>
+                    </div>
+                </a>
+                <a href="#download-section" className="col-lg-4 col-md-6 pb-30">
+                    <div className="single-service">
+                        <i className="ti-pin"></i>
+                        <h4>GEO Fence Alert</h4>
+                    </div>
+                </a>
+            </div>
             </div>
         </section>
     );

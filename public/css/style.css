@@ -3043,3 +3043,16 @@ Author:    F4H3M
 a {
   text-decoration: none !important;
 }
+
+
+/* Rejohn */
+#feature-section >.container >.row > a:hover >.single-service{
+  background: -moz-linear-gradient(0deg, #f51dac 0%, #691cff 100%);
+  background: -webkit-linear-gradient(0deg, #f51dac 0%, #691cff 100%);
+  background: -ms-linear-gradient(0deg, #f51dac 0%, #691cff 100%)
+}
+
+#feature-section >.container >.row > a:hover >.single-service > h4,  
+#feature-section >.container >.row > a:hover >.single-service > i {
+  color: #fff;
+}  

@@ -8,8 +8,8 @@ const Banner = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6 banner-left">
-                        <h1 className="text-uppercase">Track your vehicles in your plamp</h1>
-                        <p>Live Tracking, AC on / off Notification, Fuel Monitoring!, Geo Fence, Destination Alert!, Web portal, Android App</p>
+                        <h1 className="text-uppercase">Track your vehicles in your pulm</h1>
+                        <p>Live Tracking, AC on/off Notification, Fuel Monitoring!, Geo Fence, Destination Alert!, Web portal, Android App</p>
                     </div>
                     <div className="col-md-6 banner-right text-center">
                         <img className="img-fluid" src={appImage} alt="App Banner" />
